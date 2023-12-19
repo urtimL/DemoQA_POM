@@ -30,4 +30,13 @@ public class ButtonsPage extends BasePage{
         Assert.assertTrue(shouldHaveText(doubleClickMessage, text, 5));
         return this;
     }
+
+    @FindBy(id = "rightClickBtn")
+    WebElement rightClickBtn;
+
+    public ButtonsPage rightClick() {
+        new Actions(driver).contextClick(rightClickBtn).perform();
+
+        return this;
+    }
 }

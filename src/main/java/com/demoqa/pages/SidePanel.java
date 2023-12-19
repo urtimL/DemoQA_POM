@@ -76,4 +76,20 @@ public class SidePanel extends BasePage{
         click(textBox);
         return new TextBoxPage(driver);
     }
+
+    @FindBy(xpath = "//span[.='Links']")
+    WebElement links;
+
+    public LinksPage selectLinks() {
+        clickWithJSExecutor(links, 0, 400);
+        return new LinksPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Broken Links - Images']")
+    WebElement brokenLinks;
+
+    public LinksPage selectBrokenLinks() {
+        clickWithJSExecutor(brokenLinks, 0, 400);
+        return new LinksPage(driver);
+    }
 }
