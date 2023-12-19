@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-19T12:38:13 CET" name="User" finished-at="2023-12-19T12:38:26 CET" duration-ms="12720">
+    <groups>
+    </groups>
+    <test started-at="2023-12-19T12:38:13 CET" name="User" finished-at="2023-12-19T12:38:26 CET" duration-ms="12720">
+      <class name="com.demoa.tests.TextBoxTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.demoa.tests.TextBoxTests@568bf312]" started-at="2023-12-19T12:38:13 CET" name="init" finished-at="2023-12-19T12:38:24 CET" duration-ms="10666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.demoa.tests.TextBoxTests@568bf312]" started-at="2023-12-19T12:38:24 CET" name="precondition" finished-at="2023-12-19T12:38:24 CET" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="keyBoardEventTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoa.tests.TextBoxTests@568bf312]" started-at="2023-12-19T12:38:24 CET" name="keyBoardEventTest" finished-at="2023-12-19T12:38:26 CET" duration-ms="1474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bill Kill]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BillKill@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Qwerty 12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyBoardEventTest -->
+      </class> <!-- com.demoa.tests.TextBoxTests -->
+    </test> <!-- User -->
+  </suite> <!-- User -->
+</testng-results>

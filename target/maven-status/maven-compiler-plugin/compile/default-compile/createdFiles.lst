@@ -1,0 +1,10 @@
+com/demoqa/pages/TextBoxPage.class
+com/demoqa/pages/SidePanel.class
+com/demoqa/pages/BasePage.class
+com/demoqa/pages/SelectMenuPage.class
+com/demoqa/pages/HomePage.class
+com/demoqa/pages/FramesPage.class
+com/demoqa/pages/AlertPage.class
+com/demoqa/pages/BrowserWindowsPage.class
+com/demoqa/pages/ButtonsPage.class
+com/demoqa/pages/PracticeFormPage.class
